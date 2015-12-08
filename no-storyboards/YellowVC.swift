@@ -33,7 +33,7 @@ class YellowVC: UIViewController {
 
 
     @IBAction func loadBlueView(sender: AnyObject) {
-        blueVC = BlueVC(nibName: "BlueVC", bundle: nil)
+        blueVC = BlueVC(printMe: "Print this when blue view loads")
         self.presentViewController(blueVC, animated: true, completion: nil)
     }
 }
