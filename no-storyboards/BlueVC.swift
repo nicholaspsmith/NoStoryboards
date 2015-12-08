@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BlueVC.swift
 //  no-storyboards
 //
 //  Created by Nick on 12/7/15.
@@ -8,10 +8,7 @@
 
 import UIKit
 
-class YellowVC: UIViewController {
-    
-    // store a ref to next view
-    var blueVC: BlueVC!
+class BlueVC: UIViewController {
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -23,18 +20,13 @@ class YellowVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
-    @IBAction func loadBlueView(sender: AnyObject) {
-        blueVC = BlueVC(nibName: "BlueVC", bundle: nil)
-        self.presentViewController(blueVC, animated: true, completion: nil)
-    }
+    
 }
-

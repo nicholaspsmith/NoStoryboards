@@ -12,6 +12,8 @@
 		0116A84A1C16856200633E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0116A8491C16856200633E10 /* Assets.xcassets */; };
 		0116A84D1C16856200633E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0116A84B1C16856200633E10 /* LaunchScreen.storyboard */; };
 		0116A8551C1685E800633E10 /* YellowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0116A8541C1685E800633E10 /* YellowVC.xib */; };
+		0116A85B1C1687BC00633E10 /* BlueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0116A8591C1687BC00633E10 /* BlueVC.swift */; };
+		0116A85C1C1687BC00633E10 /* BlueVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0116A85A1C1687BC00633E10 /* BlueVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0116A84C1C16856200633E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0116A84E1C16856200633E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0116A8541C1685E800633E10 /* YellowVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowVC.xib; sourceTree = "<group>"; };
+		0116A8591C1687BC00633E10 /* BlueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueVC.swift; sourceTree = "<group>"; };
+		0116A85A1C1687BC00633E10 /* BlueVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		0116A8571C1685F400633E10 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0116A85A1C1687BC00633E10 /* BlueVC.xib */,
 				0116A8541C1685E800633E10 /* YellowVC.xib */,
 			);
 			name = View;
@@ -84,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				0116A8441C16856200633E10 /* YellowVC.swift */,
+				0116A8591C1687BC00633E10 /* BlueVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -146,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0116A85C1C1687BC00633E10 /* BlueVC.xib in Resources */,
 				0116A8551C1685E800633E10 /* YellowVC.xib in Resources */,
 				0116A84D1C16856200633E10 /* LaunchScreen.storyboard in Resources */,
 				0116A84A1C16856200633E10 /* Assets.xcassets in Resources */,
@@ -161,6 +168,7 @@
 			files = (
 				0116A8451C16856200633E10 /* YellowVC.swift in Sources */,
 				0116A8431C16856200633E10 /* AppDelegate.swift in Sources */,
+				0116A85B1C1687BC00633E10 /* BlueVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
